@@ -1,0 +1,59 @@
+body {
+  font-family:Georgia;
+  background: #F0FFFF;
+}
+
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+
+#route-planner, #hotel-booking, #packing-list, #share-route {
+  margin-bottom: 20px;
+}
+
+
+input {
+  display: block;
+  box-align: center;
+  width: 60%;
+  height: calc(2.25rem + 2px);
+  margin-bottom: 20px;
+  padding: 0.375rem 0.75rem;
+  font-family: Georgia;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #bdbdbd;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+button {
+  display: block;
+  width: 200px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: white;
+  transition: .2s linear;
+  font-family:Georgia, serif;
+  font-size: 18px;
+  box-align: center;
+  background: #87CEEB;
+}
+
+button:hover {
+   box-shadow: #6495ED 0 0px 0px 40px inset;
+}
+
+
+
+ul {
+  list-style-type: none;
+}
